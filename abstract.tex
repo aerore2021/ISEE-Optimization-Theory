@@ -1,0 +1,19 @@
+\documentclass[11pt,onecolumn]{IEEEtran}
+
+\title{ADMM-Based Optimization Algorithm for Nonuniformity Correction in Thermal Infrared Images}
+\author{Huang Qibin\\22531012}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Thermal infrared images are widely applied in temperature measurement and target detection, but the nonuniformity of infrared focal plane arrays (IRFPA) introduces fixed-pattern noise (FPN), which degrades image quality and limits practical applications. Traditional calibration-based NUC methods (e.g., two-point correction) have poor adaptability to temporal drift and require frequent recalibration. To address this issue, this paper formulates the NUC problem as a convex optimization model with total variation (TV) regularization, which balances noise suppression and edge preservation. The alternating direction method of multipliers (ADMM) is adopted to solve the nonsmooth optimization problem efficiently, decomposing it into three simple subproblems for iterative solution. Numerical simulations will be conducted on real thermal infrared images using Python to verify the effectiveness of the proposed method, with comparisons to traditional calibration-based methods and other optimization-based methods. The performance will be evaluated by quantitative metrics (PSNR, SSIM) and qualitative visual comparisons, aiming to demonstrate the application of optimization theory in infrared image processing.
+\end{abstract}
+
+\renewcommand{\IEEEkeywordsname}{Keywords}
+\begin{IEEEkeywords}
+Thermal Infrared Image, Nonuniformity Correction (NUC), Alternating Direction Method of Multipliers (ADMM), Total Variation (TV) Regularization, Convex Optimization, Numerical Simulation
+\end{IEEEkeywords}
+
+\end{document}
